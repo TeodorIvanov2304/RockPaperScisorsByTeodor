@@ -1,2 +1,2 @@
-# RockPaperScisorsByTeodor
-My simple console game "Rock/Paper/Scisors", created for SoftUni project
+# RockPaperScissorsByTeodor
+My simple console game "Rock/Paper/Scissors", created for SoftUni project
