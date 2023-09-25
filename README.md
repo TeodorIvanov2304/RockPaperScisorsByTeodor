@@ -26,6 +26,17 @@ We deal with all these situations using a series of if-else checks.
 ![Source Code](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/blob/main/RockPaperScissorsGame/RockPaperScissorsGame/RockPaperScissors.cs)
 
 ## Screenshots
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/3ed21c69-8064-4d8c-8efa-f10e79a5767f)
+
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/231d0901-90b5-4ce4-8d23-6d892d5ec913)
+
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/375c81d4-33de-4a9d-85ac-99727d7eefaa)
+
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/e191f5ac-b41b-4223-9530-fb070d56095e)
+
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/7656b738-6990-42cb-9329-2ab5394bd271)
+
+## Live Demo
 
 
 ### Bulgarian language version is also included.
