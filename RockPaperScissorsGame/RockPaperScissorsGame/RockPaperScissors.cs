@@ -81,6 +81,7 @@ namespace RockPaperScissorsGame
             else
             {
                 Console.WriteLine("Invalid input! Pleas, enter 'y' or 'n'!");
+                goto start2;
             }
 
         }
