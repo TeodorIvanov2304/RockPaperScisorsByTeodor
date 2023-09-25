@@ -40,7 +40,6 @@ We deal with all these situations using a series of if-else checks.
 
 You can play my game directly in your Web browser here:
 
-[<img alt="Play Button" src="https://user-images.githubusercontent.com/85368212/167706726-d027f056-fc2b-d7b7-bfad-8ff8a3aa7688.png" />](https://replit.com/@tivanov2304/RockPaperScissors-Game-by-Teodor#Main.cs)
 
 ![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/53025a71-9024-406b-8f6f-7609e00e71f6)(https://replit.com/@tivanov2304/RockPaperScissors-Game-by-Teodor#Main.cs)
 
