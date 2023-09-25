@@ -30,7 +30,7 @@ namespace RockPaperScissorsGame
             else 
             {
                 Console.WriteLine("Invalid Input. Try Again...");
-                return;
+                goto start;
                     
             }
             Random random = new Random();
