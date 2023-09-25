@@ -13,7 +13,8 @@ namespace RockPaperScissorsGame
             const string Scissors = "Хартия";
 
         start:
-            Console.WriteLine("Избери [к]амък, [н]ожица или [х]артия:");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Изберете [к]амък, [н]ожица или [х]артия:");
             string playerMove = Console.ReadLine();
 
             if (playerMove == "камък" || playerMove == "к" || playerMove == "Камък")
@@ -30,7 +31,8 @@ namespace RockPaperScissorsGame
             }
             else
             {
-                Console.WriteLine("Грешен вход. Опитай отново...");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Грешен вход. Опитайте отново...");
                 return;
 
             }
@@ -51,6 +53,7 @@ namespace RockPaperScissorsGame
                     break;
 
             }
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"Компютърът избра {computerMove}.");
 
             if (playerMove == Rock && computerMove == Scissors
@@ -58,14 +61,14 @@ namespace RockPaperScissorsGame
                 || playerMove == Scissors && computerMove == Paper)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Ти печелиш.");
+                Console.WriteLine("Вие печелите.");
             }
             else if (computerMove == Rock && playerMove == Scissors
                 || computerMove == Paper && playerMove == Rock
                 || computerMove == Scissors && playerMove == Paper)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Ти губиш.");
+                Console.WriteLine("Вие губите.");
             }
             else
             {
@@ -75,7 +78,7 @@ namespace RockPaperScissorsGame
 
         start2:
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Искаш ли да играеш още? Напиши 'д' за Да или 'н' за Не.");
+            Console.WriteLine("Искате ли да играете още? Напишете 'д' за Да или 'н' за Не.");
             char input = char.Parse(Console.ReadLine());
             if (input == 'д')
             {
@@ -83,10 +86,14 @@ namespace RockPaperScissorsGame
             }
             else if (input == 'н')
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Благодаря, че играхте!");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"Грешен вход. Моля, въведи 'д' или 'н'.");
                 goto start2;
             }

@@ -30,6 +30,7 @@ namespace RockPaperScissorsGame
             }
             else 
             {
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Invalid Input. Try Again...");
                 return;
                     
@@ -48,6 +49,7 @@ namespace RockPaperScissorsGame
                     break;
 
             }
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"The computer chose {computerMove}.");
 
             if(playerMove == Rock && computerMove == Scissors
@@ -80,10 +82,14 @@ namespace RockPaperScissorsGame
             }
             else if(input == 'n')
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Thank you for playing!");
+                Console.ForegroundColor = ConsoleColor.White;
                 return;
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"Invalid input. Please enter 'y' or 'n'.");
                 goto start2;
             }
