@@ -23,7 +23,10 @@ The computer chooses random opitons, then the winner is revealed.
 We deal with all these situations using a series of if-else checks.
 
 ## Link to the Source Code
-[https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/tree/main/RockPaperScissorsGame/RockPaperScissorsGame](RockPaperScissors.cs)
+![Source Code](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/blob/main/RockPaperScissorsGame/RockPaperScissorsGame/RockPaperScissors.cs)
+
+## Screenshots
+
 
 ### Bulgarian language version is also included.
 
