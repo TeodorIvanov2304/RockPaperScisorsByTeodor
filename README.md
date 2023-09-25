@@ -40,8 +40,9 @@ We deal with all these situations using a series of if-else checks.
 
 You can play my game directly in your Web browser here:
 
+![[image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/7bfafa7a-7ece-4766-bbb4-876785d9a005)](https://replit.com/@tivanov2304/RockPaperScissors-Game-by-Teodor#Main.cs)
 
-![https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/53025a71-9024-406b-8f6f-7609e00e71f6](https://replit.com/@tivanov2304/RockPaperScissors-Game-by-Teodor#Main.cs)
+
 
 
 ### Bulgarian language version is also included.
