@@ -1,10 +1,9 @@
 using System;
-using System.Data;
-using System.Net.WebSockets;
+
 
 namespace RockPaperScissorsGame
 {
-    internal class RockPaperScissors
+    class RockPaperScissors
     {
         static void Main(string[] args)
         {
