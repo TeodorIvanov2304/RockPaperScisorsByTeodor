@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Net.WebSockets;
 
 namespace RockPaperScissorsGame
 {
@@ -30,7 +31,7 @@ namespace RockPaperScissorsGame
             else 
             {
                 Console.WriteLine("Invalid Input. Try Again...");
-                goto start;
+                return;
                     
             }
             Random random = new Random();
@@ -49,38 +50,41 @@ namespace RockPaperScissorsGame
             }
             Console.WriteLine($"The computer chose {computerMove}.");
 
-            if(playerMove == Rock && computerMove == Paper
+            if(playerMove == Rock && computerMove == Scissors
                 ||playerMove==Paper && computerMove==Rock
                 ||playerMove == Scissors && computerMove == Paper) 
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("You win.");
             }
-            else if(computerMove == Rock && playerMove == Paper
+            else if(computerMove == Rock && playerMove == Scissors
                 || computerMove == Paper && playerMove == Rock
                 || computerMove == Scissors && playerMove == Paper)
-            {
+            {   
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("You lose.");
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("This game was a draw");
             }
-            
 
-            start2:
-            Console.WriteLine("Do you want to play more? Type 'y' for Yes and 'n' for No. ");
+        start2:
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Do you want to play more? Type 'y' for Yes and 'n' for No.");
             char input = char.Parse(Console.ReadLine());
-            if(input == 'y')
+            if (input == 'y')
             {
                 goto start;
             }
-            else if(input =='n')
+            else if(input == 'n')
             {
                 return;
             }
             else
             {
-                Console.WriteLine("Invalid input! Pleas, enter 'y' or 'n'!");
+                Console.WriteLine($"Invalid input. Please enter 'y' or 'n'.");
                 goto start2;
             }
 
