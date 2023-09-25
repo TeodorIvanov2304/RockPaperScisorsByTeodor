@@ -6,7 +6,15 @@ A console-based C# implementation of the **"Rock-Paper-Scissors"** real-world ga
 
 ![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/6122f9a0-45fd-44b1-b5f4-c81e29687d78)
 
+## Input and Output
 
+`#RRGGBB`	The player enters one of the following entries:
+
+- _Rock_ or _rock_ or _r_
+- _Paper_ or _paper_ or _p_
+- _Scissors_ or _scissors_ or _s_
+
+The computer chooses random opitons, thane the winner is revealed.
 
 
 
