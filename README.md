@@ -8,13 +8,17 @@ A console-based C# implementation of the **"Rock-Paper-Scissors"** real-world ga
 
 ## Input and Output
 
-`#0969DA`	The player enters one of the following entries:
+**The player enters one of the following entries:**
 
 - **_Rock_** or **_rock_** or **_r_**
 - **_Paper_** or **_paper_** or **_p_**
 - **_Scissors_** or **_scissors_** or **_s_**
 
 The computer chooses random opitons, then the winner is revealed.
+
+## Solution
+
+![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/49197b1c-f066-4bea-9016-40735b5092fd)
 
 
 
