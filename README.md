@@ -38,6 +38,8 @@ We deal with all these situations using a series of if-else checks.
 
 ## Live Demo
 
+You can play my game directly in your Web browser here:
+
 
 ### Bulgarian language version is also included.
 
