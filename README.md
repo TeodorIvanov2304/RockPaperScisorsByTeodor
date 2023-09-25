@@ -20,7 +20,7 @@ The computer chooses random opitons, then the winner is revealed.
 
 ![image](https://github.com/TeodorIvanov2304/RockPaperScissorsByTeodor/assets/131561902/49197b1c-f066-4bea-9016-40735b5092fd)
 
-
+We deal with all these situations using a series of if-else checks.
 
 
 ### Bulgarian language version is also included.
