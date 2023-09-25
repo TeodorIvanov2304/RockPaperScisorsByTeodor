@@ -13,7 +13,7 @@ namespace RockPaperScissorsGame
             const string Scissors = "Scissor";
 
             start:
-            Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors:");
+            Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors: ");
             string playerMove = Console.ReadLine();
 
             if(playerMove == "rock"|| playerMove == "r"|| playerMove == "Rock")
