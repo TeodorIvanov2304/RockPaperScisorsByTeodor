@@ -8,9 +8,9 @@ namespace RockPaperScissorsGame
     {
         static void Main(string[] args)
         {
-            const string Rock = "Камък";
-            const string Paper = "Ножица";
-            const string Scissors = "Хартия";
+            const string Камък = "Камък";
+            const string Хартия = "Хартия";
+            const string Ножица = "Ножица";
 
         start:
             Console.ForegroundColor = ConsoleColor.White;
@@ -19,21 +19,20 @@ namespace RockPaperScissorsGame
 
             if (playerMove == "камък" || playerMove == "к" || playerMove == "Камък")
             {
-                playerMove = Rock;
+                playerMove = Камък;
             }
             else if (playerMove == "хартия" || playerMove == "х" || playerMove == "Хартия")
             {
-                playerMove = Paper;
+                playerMove = Хартия;
             }
             else if (playerMove == "ножица" || playerMove == "н" || playerMove == "Ножица")
             {
-                playerMove = Scissors;
+                playerMove = Ножица;
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Грешен вход. Опитайте отново...");
-                return;
 
             }
             Random random = new Random();
@@ -43,29 +42,29 @@ namespace RockPaperScissorsGame
             switch (computerRandomNumber)
             {
                 case 1:
-                    computerMove = Rock;
+                    computerMove = Камък;
                     break;
                 case 2:
-                    computerMove = Paper;
+                    computerMove = Хартия;
                     break;
                 case 3:
-                    computerMove = Scissors;
+                    computerMove = Ножица;
                     break;
 
             }
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine($"Компютърът избра {computerMove}.");
 
-            if (playerMove == Rock && computerMove == Scissors
-                || playerMove == Paper && computerMove == Rock
-                || playerMove == Scissors && computerMove == Paper)
+            if (playerMove == Камък && computerMove == Ножица
+                || playerMove == Хартия && computerMove == Камък
+                || playerMove == Ножица && computerMove == Хартия)
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Вие печелите.");
             }
-            else if (computerMove == Rock && playerMove == Scissors
-                || computerMove == Paper && playerMove == Rock
-                || computerMove == Scissors && playerMove == Paper)
+            else if (playerMove == Камък && computerMove == Хартия
+                || playerMove == Хартия && computerMove == Ножица
+                || playerMove == Ножица && computerMove == Камък)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Вие губите.");
@@ -73,7 +72,7 @@ namespace RockPaperScissorsGame
             else
             {
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Играта е наравно");
+                Console.WriteLine("Играта завърши наравно");
             }
 
         start2:
