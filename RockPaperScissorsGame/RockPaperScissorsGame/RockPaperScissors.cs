@@ -13,6 +13,7 @@ namespace RockPaperScissorsGame
             const string Scissors = "Scissor";
 
             start:
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Choose [r]ock, [p]aper or [s]cissors: ");
             string playerMove = Console.ReadLine();
 
