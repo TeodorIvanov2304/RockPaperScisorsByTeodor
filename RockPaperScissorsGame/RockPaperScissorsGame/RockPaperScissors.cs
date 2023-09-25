@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 
 namespace RockPaperScissorsGame
@@ -65,7 +65,23 @@ namespace RockPaperScissorsGame
             {
                 Console.WriteLine("This game was a draw");
             }
-            goto start;
+            
+
+            start2:
+            Console.WriteLine("Do you want to play more? Type 'y' for Yes and 'n' for No. ");
+            char input = char.Parse(Console.ReadLine());
+            if(input == 'y')
+            {
+                goto start;
+            }
+            else if(input =='n')
+            {
+                return;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input! Pleas, enter 'y' or 'n'!");
+            }
 
         }
     }
