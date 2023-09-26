@@ -93,7 +93,7 @@ namespace RockPaperScissorsGame
             else
             {
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine($"Грешен вход. Моля, въведедете 'д' или 'н'.");
+                Console.WriteLine($"Грешен вход. Моля, въведете 'д' или 'н'.");
                 goto start2;
             }
 
